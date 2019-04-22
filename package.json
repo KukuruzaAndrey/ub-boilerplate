@@ -12,15 +12,15 @@
   "author": "andrii.kukuruza <andrii.kukuruza@inbase.com.ua> (https://unitybase.info)",
   "license": "ISC",
   "dependencies": {
-    "@unitybase/adminui-pub": "^5.6.24",
-    "@unitybase/adminui-reg": "^5.1.5",
-    "@unitybase/base": "^5.1.2",
-    "@unitybase/cdn": "^5.0.83",
-    "@unitybase/ub": "^5.2.3",
-    "@unitybase/uba": "^5.1.13",
-    "@unitybase/ubs": "^5.1.45"
+    "@unitybase/adminui-pub": "^5.8.6",
+    "@unitybase/adminui-reg": "^5.1.15",
+    "@unitybase/base": "^5.1.8",
+    "@unitybase/cdn": "^5.1.8",
+    "@unitybase/ub": "^5.2.11",
+    "@unitybase/uba": "^5.1.22",
+    "@unitybase/ubs": "^5.2.8"
   },
   "devDependencies": {
-    "@unitybase/ubcli": "^5.3.6"
+    "@unitybase/ubcli": "^5.3.14"
   }
 }
