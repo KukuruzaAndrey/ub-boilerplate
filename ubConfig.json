@@ -31,7 +31,11 @@
       "applicationTitle": "App",
       "defaultPasswordForDebugOnly": "admin",
       "themeName": "UBGrayTheme",
-      "endpoint": "index.html"
+      "endpoint": "index.html",
+      "loginURL": "/models/adminui-vue/views/ub-auth.html",
+      "customSidebar": true, // set to true to not create sidebar
+      "customNavbar": true, // set to true to not create navbar
+      "vueAutoForms": true
     }
   },
   "application": {
@@ -65,6 +69,9 @@
         },
         {
           "path": "./node_modules/@unitybase/adminui-reg"
+        },
+        {
+          "path": "./node_modules/@unitybase/adminui-vue"
         }
       ]
     },
