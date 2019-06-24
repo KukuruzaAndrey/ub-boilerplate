@@ -72,6 +72,12 @@
         },
         {
           "path": "./node_modules/@unitybase/adminui-vue"
+        },
+        {
+          "path": "./node_modules/@unitybase/ubdev"
+        },
+        {
+          "path": "./models/em"
         }
       ]
     },

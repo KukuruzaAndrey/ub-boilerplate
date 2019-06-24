@@ -19,6 +19,8 @@
     "@unitybase/cdn": "^5.1.8",
     "@unitybase/ub": "^5.2.11",
     "@unitybase/uba": "^5.1.22",
+    "@unitybase/ubdev": "0.0.28",
+    "@unitybase/ubm": "^5.1.27",
     "@unitybase/ubs": "^5.2.8"
   },
   "devDependencies": {
