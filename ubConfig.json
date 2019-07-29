@@ -92,6 +92,16 @@
           "uk"
         ],
         "advSettings": "Synchronous=On"
+      }, {
+        "name": "b2-test",
+        "driver": "PostgreSQL",
+        "dialect": "PostgreSQL",
+        "serverName": "postgresql://localhost:5432",
+        "databaseName": "postgres", // database name
+        "userID": "deals", // schema and user name
+        "password": "deals", // password for user
+        "advSettings": "LibLocation=libpq.so.5",
+        "supportLang": ["uk", "ru", "en"]
       }
     ],
     "blobStores": [
