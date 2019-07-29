@@ -1,9 +1,15 @@
 {
   "caption": "Документи",
   "description": "Документи",
-  "connectionName":"b2-test",
+  "connectionName": "b2-test",
   "attributes": [
-    
+    {
+      "name": "data",
+      "dataType": "String",
+      "size": 255,
+      "allowNull": false,
+      "caption": "Subject"
+    }
   ],
   "mixins": {
     "mStorage": {

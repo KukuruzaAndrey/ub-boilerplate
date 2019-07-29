@@ -12,18 +12,18 @@
   "author": "andrii.kukuruza <andrii.kukuruza@inbase.com.ua> (https://unitybase.info)",
   "license": "ISC",
   "dependencies": {
-    "@unitybase/adminui-pub": "^5.8.6",
-    "@unitybase/adminui-reg": "^5.1.15",
-    "@unitybase/adminui-vue": "^1.4.3",
-    "@unitybase/base": "^5.1.8",
-    "@unitybase/cdn": "^5.1.8",
-    "@unitybase/ub": "^5.2.11",
-    "@unitybase/uba": "^5.1.22",
+    "@unitybase/adminui-pub": "^5.10.6",
+    "@unitybase/adminui-reg": "^5.2.6",
+    "@unitybase/adminui-vue": "^1.6.16",
+    "@unitybase/base": "^5.1.20",
+    "@unitybase/cdn": "^5.2.1",
+    "@unitybase/ub": "^5.2.26",
+    "@unitybase/uba": "^5.2.1",
     "@unitybase/ubdev": "0.0.28",
-    "@unitybase/ubm": "^5.1.27",
-    "@unitybase/ubs": "^5.2.8"
+    "@unitybase/ubm": "^5.2.1",
+    "@unitybase/ubs": "^5.2.26"
   },
   "devDependencies": {
-    "@unitybase/ubcli": "^5.3.14"
+    "@unitybase/ubcli": "^5.3.30"
   }
 }
