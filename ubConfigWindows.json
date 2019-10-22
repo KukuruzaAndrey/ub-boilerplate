@@ -1,12 +1,16 @@
 {
   "httpServer": {
+//    "serverType": "Socket",
     "host": "+",
     "port": "8881",
     "watchFileChanges": {
       "enabled": false,
       "hashingStrategy": "ModifyDate"
     },
-    "threadPoolSize": 2
+    "threadPoolSize": 2 /*,
+    "reverseProxy": {
+      "kind": "nginx"
+    }*/
   },
   "logging": {
     "path": "./logs",
@@ -28,7 +32,10 @@
       "defaultPasswordForDebugOnly": "admin",
       "themeName": "UBGrayTheme",
       "endpoint": "index.html",
-      "loginURL": "/models/adminui-vue/views/ub-auth.html"
+      "loginURL": "/models/adminui-vue/views/ub-auth.html",
+      "customSidebar": true, // set to true to not create sidebar
+      "customNavbar": true, // set to true to not create navbar
+      "vueAutoForms": true
     }
   },
   "application": {
@@ -65,6 +72,9 @@
         },
         {
           "path": "./node_modules/@unitybase/adminui-vue"
+        },
+        {
+          "path": "./node_modules/@unitybase/ubdev"
         }
       ]
     },
@@ -85,7 +95,15 @@
       {
         "name": "mdb",
         "storeType": "Virtual",
-        "tempPath": "./store/_temp"
+        "tempPath": "./documents/avatars/_temp"
+      },
+      {
+        "name": "avatars",
+        "path": "./documents/avatars",
+        "tempPath": "./documents/avatars/_temp",
+        "historyDepth": 0,
+        "storeSize": "Simple",
+        "keepOriginalFileNames": false
       }
     ],
     "customSettings": {
