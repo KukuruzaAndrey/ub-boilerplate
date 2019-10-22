@@ -24,6 +24,7 @@
         "en": "UB",
         "uk": "UB"
       },
+//      "vueAutoForms": true,
       "applicationTitle": "App",
       "defaultPasswordForDebugOnly": "admin",
       "themeName": "UBGrayTheme",
