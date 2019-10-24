@@ -1,0 +1,61 @@
+{
+  "caption": "department",
+  "description": "department",
+  "descriptionAttribute": "name",
+  "attributes": [
+    {
+      "name": "name",
+      "dataType": "String",
+      "size": 255,
+      "caption": "Department Name",
+      "description": "Department Name",
+      "isUnique": true
+    },
+    {
+      "name": "address",
+      "dataType": "String",
+      "size": 255,
+      "caption": "Department Address",
+      "description": "Department Address"
+    },
+    {
+      "name": "phone",
+      "dataType": "String",
+      "size": 255,
+      "caption": "Department Phone",
+      "description": "Department Phone"
+    },
+    {
+      "name": "status",
+      "dataType": "Enum",
+      "enumGroup": "ASTD_STATUS",
+      "caption": "status"
+    },
+    {
+      "name": "description",
+      "dataType": "Text",
+      "caption": "Description"
+    },
+    {
+      "name": "boss",
+      "dataType": "Entity",
+      "associatedEntity": "uba_user",
+      "caption": "Boss"
+    },
+    {
+      "name": "createDate",
+      "dataType": "Date",
+      "caption": "Create date"
+    },
+    {
+      "name": "logo",
+      "dataType": "Document",
+      "caption": "Logo",
+      "storeName": "logos"
+    }
+  ],
+  "mixins": {
+    "mStorage": {
+    }
+  }
+}
